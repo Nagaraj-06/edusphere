@@ -53,7 +53,7 @@ const Home = () => {
     <div className="bodyy">
       <FirstHeader
         searchh={(data) => setSearch(data)}
-        content={`Welcome to the PS Discussion Forum`}
+        content={`Welcome to the EduSphere`}
         Languages={languagesCount}
         Level={levelCount}
         Posts={postsCount}

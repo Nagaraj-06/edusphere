@@ -42,7 +42,7 @@ export const Header1 = ({ email, selectedComponent }) => {
       {/*<div className="header">*/}
       <div className="contentfix">
         <div className="head">
-          <h2>DISCUSSION FORUM</h2>
+          <h2>EDUSPHERE</h2>
         </div>
 
         <nav className="navbar">
