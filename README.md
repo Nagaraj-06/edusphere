@@ -211,23 +211,3 @@ Dicuss-Forum/
 
 ---
 
-<div align="center">
-
-**Star this repo if it helped you.**
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Nagaraj--06-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nagaraj-06)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nagaraj%20R-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagaraj-r-4265272b8/)
-
-<br/>
-
-*Built by Nagaraj R*
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
-
-</div>
-* CSS / MUI  
-
----
-
