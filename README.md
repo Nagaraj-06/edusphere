@@ -30,6 +30,8 @@
 
 *A structured learning forum where students ask doubts, share answers, and collaborate across languages, levels, and topics.*
 
+[🚀 **Live Demo**](https://project-omega-lime-69.vercel.app/)
+
 </div>
 
 <hr/>
@@ -41,9 +43,7 @@
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📐 Architecture Overview](#-architecture-overview)
 - [⚙️ Setup & Installation](#️-setup--installation)
-- [🔐 Environment Variables](#-environment-variables)
 - [📂 Folder Structure](#-folder-structure)
-- [🧩 API Snapshot](#-api-snapshot)
 - [🔮 Roadmap](#-roadmap)
 
 <hr/>
@@ -167,33 +167,6 @@ Frontend runs on: `http://localhost:4000`
 
 ---
 
-## 🔐 Environment Variables
-
-### `backend/.env`
-
-```env
-db_user=your_mysql_user
-db_password=your_mysql_password
-db_host=localhost
-db_name=your_database_name
-db_port=3306
-
-secret_key=your_jwt_secret
-frontend_url=http://localhost:4000
-
-clinet_id=your_google_oauth_client_id
-client_secret=your_google_oauth_client_secret
-callback_url=http://localhost:2000/callback
-```
-
-### `client/.env`
-
-```env
-REACT_APP_BACKEND_URL=http://localhost:2000
-```
-
----
-
 ## 📂 Folder Structure
 
 ```text
@@ -216,19 +189,6 @@ Dicuss-Forum/
 │       ├── api/
 │       └── assets/
 └── README.md
-```
-
----
-
-## 🧩 API Snapshot
-
-- **Auth**: `/google`, `/callback`, `/logout`, `/api/user`, `/protected`
-- **Forum Core**: `/getLanguages`, `/getLevels`, `/forumstats`, `/recentposts`
-- **Posts**: `/Discussion`, `/EditDiscussion`, `/getallposts`, `/QuestionId`
-- **Replies**: `/mainreplies`, `/subreplies`, `/getmainreplies`, `/getSubreplies1`
-- **Engagement**: `/addlike`, `/saved`, `/postViewData`, `/favourites`
-- **Profile**: `/profile_full`, `/userPosts`, `/userReplies`, `/TopicsCount`
-
 ---
 
 ## 🔮 Roadmap
