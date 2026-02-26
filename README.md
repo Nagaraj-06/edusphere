@@ -167,6 +167,14 @@ Frontend runs on: `http://localhost:4000`
 
 ---
 
+### `client/.env`
+
+```env
+REACT_APP_BACKEND_URL=http://localhost:2000
+```
+
+---
+
 ## 📂 Folder Structure
 
 ```text
@@ -189,6 +197,8 @@ Dicuss-Forum/
 │       ├── api/
 │       └── assets/
 └── README.md
+```
+
 ---
 
 ## 🔮 Roadmap
@@ -217,3 +227,7 @@ Dicuss-Forum/
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
 
 </div>
+* CSS / MUI  
+
+---
+
