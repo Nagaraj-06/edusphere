@@ -21,7 +21,7 @@ const Login = () => {
 
         <div className="greet-head">
           <img src={Img10} alt="PS Logo" />
-          <h2>PS EDUSPHERE</h2>
+          <h2>EDUSPHERE</h2>
         </div>
 
         <div className="bit-logo">
