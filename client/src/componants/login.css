@@ -27,7 +27,7 @@
     width: 120px;
 }
 
-.greet-head{
+/* .greet-head{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,42 @@
     width: 30px;
     display: flex;
     justify-content: center;
+} */
+
+.edusphere-greet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 60px 20px; */
+  /* background: linear-gradient(135deg, #0f172a, #1e293b); */
+}
+
+.edusphere-brand {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+/* Logo Icon */
+.edu-logo {
+  height: 120px;
+  width: auto;
+  /* object-fit: contain; */
+  transition: transform 0.3s ease;
+}
+
+/* Text Logo */
+.edu-logo-text {
+  height: 100px;
+  width: auto;
+  /* object-fit: contain; */
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.edusphere-brand:hover .edu-logo,
+.edusphere-brand:hover .edu-logo-text {
+  transform: scale(1.05);
 }
 
 .login-body h2{
@@ -54,7 +90,7 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 1.5rem;
-    color: #337ab7;
+    color: #0B4D80;
     font-family: "Poppins";
     display: flex;
     justify-content: center;

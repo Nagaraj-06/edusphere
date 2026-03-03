@@ -4,6 +4,8 @@ import "react-toastify/dist/ReactToastify.css";
 import api from "../api/axiosConfig";
 import Img9 from "../assets/google-icon.png";
 import Img10 from "../assets/PS_Skill_logo.png";
+import EduSphere from "../assets/EduSphere.png";
+import EduSphere_Logo from "../assets/Edusphere-color.jpeg";
 import Img6 from "../assets/Bannari_Amman_logo.jpeg";
 import "./login.css";
 
@@ -19,14 +21,29 @@ const Login = () => {
           transition={Bounce}
         />
 
-        <div className="greet-head">
-          <img src={Img10} alt="PS Logo" />
+        <div className="edusphere-greet">
+            <div className="edusphere-brand">
+              <img 
+                className="edu-logo" 
+                src={EduSphere_Logo} 
+                alt="EduSphere Logo" 
+              />
+              
+              <img 
+                className="edu-logo-text" 
+                src={EduSphere} 
+                alt="EduSphere Text Logo" 
+              />
+            </div>
+        </div>
+        {/* <div className="greet-head">
+          <img src={Img10} alt="EduSphere Logo" />
           <h2>EDUSPHERE</h2>
         </div>
 
         <div className="bit-logo">
           <img src={Img6} alt="BIT Logo" />
-        </div>
+        </div> */}
 
         <div className="greet-text">
           "Join the Forum, Be Part of the Solution!"
